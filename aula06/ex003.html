@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Me livrei da maldição</p> 
+
+    <script>
+        var n1 = Number.parseInt(prompt('Digite um número: ')) // O parseInt vai transformar a string do prompt em um número inteiro
+        var n2 = Number.parseFloat(prompt('Digite um número real: ')) // O parseFloat vai transformar a string do prompt em um número real
+        var n3 = Number(prompt('Digite mais um número: ')) // O Number faz com que o JavaScript decida qual o tipo do número (int ou real)
+        var soma = n1 + n2 + n3
+        alert(`A soma entre ${n1} + ${n2} + ${n3} é igual a ${soma}`) // Concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // O String(soma)) vai converter um número em uma string
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            font: normal 20pt arial;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        var nome = prompt('Qual é o seu nome? ')
+        document.write(`Olá ${nome} seu nome tem ${nome.length} letras. <br/>`) // o nome.length vai contar quantas letras a string possui
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} <br/>`) // O toUpperCase vai transformar toda a string em maiúsculas (nunca se esquecer dos () no final)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()} <br/>`) // O toLowerCase vai transformar toda a string em minúsculas (nunca se esquecer dos () no final)
+    </script>
+</body>
+</html>
