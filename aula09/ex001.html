@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando o DOM</title>
+    <style>
+        body {
+            background-color: rgb(2, 126, 126);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos com o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">
+        Clique em mim
+    </div>
+    <div id="seletor">
+        O seu comando 
+    </div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p') [0] // Esse [0] seleciona o primeiro parágrafo, se fosse [1] seleciona o segundo
+
+        var d = window.document.getElementById('msg') // Selecionando por ID
+        
+        var select = window.document.querySelector('div#seletor') // Selecionando por Seletor
+
+        /* p1.style.color = 'black' Muda o estilo do primeiro parágrafo
+        corpo.style.background = 'purple'  Muda a cor do fundo */
+        
+        d.style.background = 'black'
+        d.innerText = 'Estou Aguardando...' // modifica o conteúdo de texto dentro da div
+
+        select.style.background = 'purple'
+
+
+    </script>
+</body>
+</html>
