@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(15, 14, 14);
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/brasilmob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    color: black;
+
+    
+    
+}
+
+header {
+    background-image: linear-gradient(to left, yellow, green, blue);
+    height: 100px;
+}
+
+.area {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+#container {
+    background-color: rgba(216, 221, 226, 0.644);
+    width: 400px;
+    height: 400px;
+    color: rgb(13, 119, 212);
+    border-radius: 10px;
+    padding: 10px;
+    font: bold 13pt Arial;
+}
+
+
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 30px;
+    font-size: 40px;
+}
+
+label {
+    font-size: 23px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:hover {
+    background-color: #e4e2e2ee;
+}
+
+#res {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
