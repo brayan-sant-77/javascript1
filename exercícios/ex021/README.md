@@ -1,0 +1,1 @@
+Crie um programa que conte de 1 a 10 usando a estrutura while

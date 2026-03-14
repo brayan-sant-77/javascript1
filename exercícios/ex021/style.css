@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+section > p{
+    font-size: 25px;
+}
